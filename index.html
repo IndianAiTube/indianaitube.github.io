@@ -59,20 +59,10 @@
       width: 64px;
       height: 64px;
       border-radius: 24px;
-      background: radial-gradient(circle at 30% 20%, #ffe08a 0, #ffb400 35%, #ff7a3c 70%, #4b2cff 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
       position: relative;
       overflow: hidden;
-    }
-    .logo::after {
-      content: "AI";
-      font-weight: 800;
-      font-size: 1.25rem;
-      color: #050816;
-      letter-spacing: 0.08em;
+      object-fit: cover;
     }
     .brand-text h1 {
       font-size: 1.9rem;
@@ -327,7 +317,7 @@
   <div class="page">
     <header>
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+        <img src="profile_photo.jpg" alt="Indian AI Tube Logo" class="logo" />
         <div class="brand-text">
           <h1>
             Indian AI Tube
