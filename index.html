@@ -297,6 +297,35 @@
       margin-bottom: 1rem;
       display: block;
     }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 0.8rem;
+      margin-top: 0.8rem;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 0.8rem;
+    }
+    .video-title {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.5;
+      transition: color 0.2s ease;
+      display: inline-block;
+    }
+    .video-title:hover {
+      color: var(--accent);
+    }
     .utility-divider {
       height: 1px;
       background: linear-gradient(to right, transparent, rgba(148, 163, 184, 0.3), transparent);
@@ -500,6 +529,20 @@
               <a class="tutorial-link" href="https://indianaitube.medium.com/stop-using-static-charts-create-viral-3d-timeline-animations-with-ai-without-any-errors-cba325156dc9?sk=1764e0920f58c613f95993232dda27c1" target="_blank" rel="noopener noreferrer">
                 Create Viral 3D Timeline Animations Using AI Without Any Errors (Nano Banana Pro + Veo3.1)
               </a>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="section-title">Video Tutorial</h2>
+          <div class="card">
+            <div class="card-body">
+              <a class="video-title" href="https://youtu.be/Whgt69ZiL8o?si=fB7qRBAgrXXjf1qV" target="_blank" rel="noopener noreferrer">
+                AI Video Tutorial FRAME by FRAME
+              </a>
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Whgt69ZiL8o?si=fB7qRBAgrXXjf1qV" title="AI Video Tutorial FRAME by FRAME" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </section>
